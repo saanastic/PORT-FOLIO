@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@layer theme, base, components, utilities;
+@config "../tailwind.config.js";
+
+body {
+  font-family: 'Anton', sans-serif;
+  @apply leading-[normal] m-0;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-width: 0;
+  }
+}
