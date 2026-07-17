@@ -4,7 +4,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Desktop1 = () => {
+const Desktop1 = ({ scrollerRef }) => {
   const containerRef = useRef(null);
   const innerRef = useRef(null);
 
@@ -77,6 +77,7 @@ const Desktop1 = () => {
         const outTl = gsap.timeline({
           scrollTrigger: {
             trigger: containerRef.current,
+            scroller: scrollerRef?.current || undefined,
             start: "top top",
             end: "+=100%",
             scrub: 1.2,
@@ -185,7 +186,7 @@ const Desktop1 = () => {
       <div
         ref={containerRef}
         style={{ fontFamily: "'Anton', sans-serif" }}
-        className="w-screen h-screen bg-[#ae3232] flex items-center justify-center overflow-hidden"
+        className="w-screen h-screen bg-[rgb(174,50,50)] flex items-center justify-center overflow-hidden"
       >
 
         {/* DESKTOP ≥ 689px */}
@@ -209,7 +210,7 @@ const Desktop1 = () => {
 
           <div ref={photoRef} className="bg-[#f7f1e9] absolute"
             style={{ top: "55px", left: "437px", right: "2px", padding: "18px" }}>
-            <img src="/Rectangle-6@2x.png" alt="Saanvi Arora"
+            <img src="/img1.jpeg" alt="Saanvi Arora"
               style={{ width: "100%", height: "260px", objectFit: "cover", display: "block" }} />
           </div>
 

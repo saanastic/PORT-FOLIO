@@ -7,4 +7,8 @@ module.exports = {
   corePlugins: {
     preflight: false,
   },
+  fontFamily: {
+  display: ['Anton', 'sans-serif'],
+  script: ['Caveat', 'cursive'],
+}
 };
