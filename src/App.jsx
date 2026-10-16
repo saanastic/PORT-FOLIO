@@ -3,7 +3,7 @@ import { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 import Desktop1 from "./pages/Desktop1";
 import Desktop2 from "./pages/Desktop2";
