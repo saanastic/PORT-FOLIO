@@ -59,6 +59,7 @@ function App() {
       <Desktop7 scrollerRef={scrollerRef} />
       <Desktop8 scrollerRef={scrollerRef} />
       <Desktop9 scrollerRef={scrollerRef} />
+      <Analytics />
     </div>
   );
 }
