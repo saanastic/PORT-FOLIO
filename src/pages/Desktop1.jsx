@@ -241,7 +241,7 @@ const Desktop1 = ({ scrollerRef }) => {
             </div>
             <div className="m-photo-col">
               <div ref={mPhotoRef} className="m-photo-frame">
-                <img src="/Rectangle-6@2x.png" alt="Saanvi Arora" />
+                <img src="/img1.jpeg" alt="Saanvi Arora" />
               </div>
             </div>
           </div>

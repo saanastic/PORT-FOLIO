@@ -19,3 +19,73 @@ body {
     border-width: 0;
   }
 }
+
+
+html,
+body,
+#root {
+  scroll-behavior: smooth;
+  background-color: rgb(174, 50, 50);
+}
+
+.pin-spacer {
+  background-color: inherit;
+}
+/* ========================================
+   JOURNEY — BOARDING PASS TEXT STYLES
+   ======================================== */
+
+.ticket-label {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #e8cfcf;
+  line-height: 1.2;
+}
+
+.ticket-value {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.09em;
+  color: #fff7e5;
+  line-height: 1.2;
+}
+
+.ticket-small {
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  color: #e8cfcf;
+  line-height: 1.4;
+}
+
+.ticket-detail {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #fff7e5;
+  line-height: 1.5;
+}
+
+
+/* ========================================
+   JOURNEY — NOTEBOOK TEXT STYLES
+   ======================================== */
+
+.notebook-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8b6f61;
+  line-height: 1.3;
+}
+
+.notebook-value {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #332a27;
+  line-height: 1.3;
+}

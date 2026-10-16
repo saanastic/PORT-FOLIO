@@ -187,19 +187,7 @@ const Desktop2 = ({ scrollerRef }) => {
             </h1>
           </div>
 
-          {/* Portrait image — moved up + slightly taller to close the gap under ABOUT */}
-          <img
-            ref={imageRef}
-            src="/src/assets/image.png"
-            alt="Saanvi Arora portrait"
-            data-flip="image"
-            className="absolute left-[600px] w-auto object-contain object-bottom grayscale z-20"
-            style={{
-              // ---- GAP TUNING CONTROLS ----
-              top: "80px",
-              height: "820px",
-            }}
-          />
+         
         </div>
       </div>
     </section>
