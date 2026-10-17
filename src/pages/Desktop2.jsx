@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import portrait from "../assets/image.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -112,12 +113,12 @@ const Desktop2 = ({ scrollerRef }) => {
         </h1>
 
         {/* Photo fills the remaining space, pulled up tight under the heading */}
-        <img
-          src="/src/assets/image.png"
-          alt="Saanvi Arora portrait"
-          data-flip="image"
-          className="flex-1 w-full mt-[-296px] object-cover object-top grayscale z-20"
-        />
+       <img
+  src={portrait}
+  alt="Saanvi Arora portrait"
+  data-flip="image"
+  className="flex-1 w-full mt-[-296px] object-cover object-top grayscale z-20"
+/>
       </section>
     );
   }
