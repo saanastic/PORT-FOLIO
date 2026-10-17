@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import portrait from "../assets/image.png";
 
 const Desktop3 = () => {
   const [isNarrow, setIsNarrow] = useState(false);
@@ -180,7 +181,7 @@ const Desktop3 = () => {
           {/* ================= DESKTOP IMAGE ================= */}
           {!isNarrow && (
             <img
-              src="/src/assets/image.png"
+              src={portrait}
               alt="Saanvi Arora portrait"
               data-flip-target="image"
               className="
