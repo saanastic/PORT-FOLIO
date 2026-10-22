@@ -145,31 +145,7 @@ tech: ["HTML", "CSS", "JavaScript"],
   },
 },
   
-  {
-    id: "posts-app",
-    name: "Posts-app",
-    details: {
-      tagline: "Full-Featured CRUD Dashboard for Content Management",
-      description:
-        "An intuitive CRUD dashboard allowing users to create, read, update, and delete posts dynamically with instant UI updates and backend persistence.",
-      screenshots: [
-        "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
-        "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80",
-      ],
-      features: [
-        "Complete Create, Read, Update, and Delete (CRUD) workflows",
-        "Optimistic UI updates for instantaneous feedback",
-        "Pagination and search filtering for large dataset lists",
-        "REST API integration with Express and MongoDB backend",
-      ],
-      contribution:
-        "Engineered the API integration layer with asynchronous error handling and loading skeletons to ensure high perceived performance.",
-      tech: ["React", "Node.js", "Express", "MongoDB", "REST APIs"],
-      github: "https://github.com/your-username/posts-app",
-      live: "",
-    },
-  },
+  
  
 ];
 
