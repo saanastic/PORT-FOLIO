@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Trophy, Mic, Cog, Compass, Sparkles } from 'lucide-react';
+import { Trophy, Mic, Cog, Compass, Sparkles,  Brain  } from 'lucide-react';
 import AchievementCard from '../components/AchievementCard';
 import CertificateModal from '../components/CertificateModal';
 
@@ -7,9 +7,20 @@ import CertificateModal from '../components/CertificateModal';
 // files placed in /public/certificates/, e.g. "/certificates/dsa-sprint.png"
 const ACHIEVEMENTS = [
   {
-    id: '#01',
+  id: '#01',
+  title: 'Merge Conflicts',
+  date: 'AUG 2026',
+  description:
+    'Led a team in an agent-driven AI challenge focused on taking software from specification to tested, deployed code.',
+  certificateImage: '/certificates/merge-conflicts.png',
+  reflection: 'Building with AI is about guiding agents, not just generating code.',
+  skills: ['AI Agents', 'Team Leadership', 'Deployment'],
+  icon: Sparkles,
+},
+  {
+    id: '#02',
     title: 'DSA Sprint',
-    date: 'OCT 2024',
+    date: 'JUN 2024',
     description:
       '45 days of consistency, problem solving, and building the habit of showing up every day.',
     certificateImage: '/certificates/dsa-sprint.png',
@@ -18,7 +29,18 @@ const ACHIEVEMENTS = [
     icon: Trophy,
   },
   {
-    id: '#02',
+  id: '#03',
+  title: 'Breaking an LLM',
+  date: 'MAR 2026',
+  description:
+    'Participated in a GDG KIIT event exploring LLMs, creativity, and problem-solving.',
+  certificateImage: '/certificates/llm.png',
+  reflection: 'Experimenting with ideas is where innovation begins.',
+  skills: ['LLMs', 'Problem-Solving', 'Experimentation'],
+  icon: Brain,
+},
+  {
+    id: '#04',
     title: 'Mic Drop',
     date: 'FEB 2025',
     description:
@@ -29,27 +51,17 @@ const ACHIEVEMENTS = [
     icon: Mic,
   },
   {
-    id: '#03',
-    title: 'Screderia',
-    date: 'MAY 2025',
+    id: '#05',
+    title: 'Screw-deria',
+    date: 'FEB 2025',
     description:
       'Explored something beyond my usual domain in a mechanical engineering event.',
-    certificateImage: '/certificates/screderia.png',
+    certificateImage: '/certificates/screwderia.png',
     reflection: 'Being a beginner again is a great way to stay sharp.',
     skills: ['Exploration', 'Teamwork', 'Adaptability'],
     icon: Cog,
   },
-  {
-    id: '#04',
-    title: 'Design Hackathon',
-    date: 'AUG 2025',
-    description:
-      'Crafted seamless UI/UX systems under a 24-hour deadline with a team.',
-    certificateImage: '/certificates/design-hackathon.png',
-    reflection: 'Constraints force the clearest design decisions.',
-    skills: ['UI/UX', 'Time Management', 'Collaboration'],
-    icon: Compass,
-  },
+  
 ];
 
 const Desktop8 = () => {
